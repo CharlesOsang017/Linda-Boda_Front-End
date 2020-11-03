@@ -1,0 +1,9 @@
+.why{
+    color: orange;
+    /* overflow-x: hidden; */
+
+}
+#about{
+    overflow-x: hidden;
+    background-color: transparent;
+}
