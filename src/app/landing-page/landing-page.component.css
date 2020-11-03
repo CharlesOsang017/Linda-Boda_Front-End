@@ -1,0 +1,11 @@
+.container-fluid{
+    background-image: url('/assets/images/Safeboda.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
