@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Linda-Boda"
+    }
+  },
+  "defaultProject": "Linda-Boda",
+  "cli": {
+    "analytics": "16a6738e-16f6-4857-8f0c-8cc0e13e0f65"
+  }
 }
