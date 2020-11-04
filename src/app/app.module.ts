@@ -9,6 +9,9 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { OurDriverComponent } from './our-driver/our-driver.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+
+
 
 @NgModule({
   declarations: [
@@ -17,7 +20,8 @@ import { OurDriverComponent } from './our-driver/our-driver.component';
     LandingPageComponent,
     FooterComponent,
     AboutComponent,
-    OurDriverComponent
+    OurDriverComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
