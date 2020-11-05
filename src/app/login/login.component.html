@@ -1,0 +1,41 @@
+<br><br><br>
+<div class="row">
+  <div class="col-md-6">  
+<!-- Default form login -->
+<form class="text-center border border-light p-5" style="width: 45vw;">
+
+    <p class="h4 mb-4">Sign in</p>
+  
+    <!-- Email -->
+    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+  
+    <!-- Password -->
+    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+  
+    <div class="d-flex justify-content-around">
+      <div>
+        <!-- Remember me -->
+        <mdb-checkbox [default]="true">Remember me</mdb-checkbox>
+      </div>
+      <div>
+        <!-- Forgot password -->
+        <a href="">Forgot password?</a>
+      </div>
+    </div>
+  
+    <!-- Sign in button -->
+    <button mdbBtn color="info" block="true" class="my-4" type="submit" class="btn btn-sm btn-info">Sign in</button>
+  
+    <!-- Register -->
+    <p>Not a member?
+      <a routerLink='register' href="">Register</a>
+    </p>
+   
+  </form>
+  <!-- Default form login -->
+  
+</div>
+<div class="col-md-6">
+  <img class="login-image" src="/assets/images/motorcycle.svg">
+</div>
+</div>
