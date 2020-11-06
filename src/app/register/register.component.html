@@ -1,39 +1,43 @@
-<br><br><br>
-<!-- Default form login -->
-<form class="text-center border border-light p-5" style="width: 45vw;">
 
-    <p class="h4 mb-4">Sign Up</p>
-  
-    <!-- Email -->
-    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
-  
-    <!-- Password -->
-    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
-  
-      <!-- Password -->
-      <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder=" Confirm Password">
-    
-      <!-- Username -->
-    <input type="username" id="defaultLoginFormUsername" class="form-control mb-4" placeholder="Username">
-  
-    <div class="d-flex justify-content-around">
-      <div>
-        <!-- Remember me -->
-        <mdb-checkbox [default]="true">Remember me</mdb-checkbox>
+<br><br><br><br><br>
+<!--Form with header-->
+<div class="card signup col-md-3 pl-5" >
+  <div class="card-block" style="width: 45;">
+
+      <!--Header-->
+      <div class="form-header blue-gradient">
+          <h3><i class="fa fa-user"></i> Sign Up:</h3>
       </div>
-      <div>
-        <!-- Forgot password -->
-        <a href="">Forgot password?</a>
+
+      <!--Body-->
+      <div class="md-form">
+          <i class="fa fa-user prefix"></i>
+          <input type="text" id="form3" class="form-control">
+          <label for="form3">Your name</label>
       </div>
-    </div>
-  
-    <!-- Sign in button -->
-    <button mdbBtn color="info" block="true"  class="btn btn-sm btn-info"  class="my-4" type="submit">Sign Up</button>
-  
-    <!-- Register -->
-    <p>Have An Account?
-      <a routerLink='register' href="#">Login</a>
-    </p>
- 
-  </form>
-  <!-- Default form login -->
+      <div class="md-form">
+          <i class="fa fa-envelope prefix"></i>
+          <input type="text" id="form2" class="form-control">
+          <label for="form2">Your email</label>
+      </div>
+
+      <div class="md-form">
+          <i class="fa fa-lock prefix"></i>
+          <input type="password" id="form4" class="form-control">
+          <label for="form4">Your password</label>
+      </div>
+
+      <div class="text-center">
+        <a href="login" class="btn btn-sm btn-info">Sign Up</a>
+          <!-- <button class="btn btn-indigo">Sign up</button> -->
+
+          <hr>
+          <fieldset class="form-group">
+              <small>Have an account?<a href="login">Login</a></small>
+            </fieldset>
+      </div>
+
+  </div>
+</div>
+<br><br><br>
+<!--/Form with header-->
